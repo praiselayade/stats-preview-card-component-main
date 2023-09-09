@@ -88,13 +88,13 @@ body {
   font-family: 'Lexend Deca', sans-serif;
   color: hsla(0, 0%, 100%, 0.6);
 }
-.image-header-desktop-overlay {
+.box-2 {
   border-radius: 0px 5px 5px 0px;
-  background-image: linear-gradient(0deg, hsla(277, 64%, 61%, 0.5), hsla(277, 64%, 61%, 0.5)),url(/images/image-header-mobile.jpg);
+  background-image: linear-gradient(0deg, hsla(277, 64%, 61%, 0.5), hsla(277, 64%, 61%, 0.5)),url(/images/image-header-desktop.jpg);
   background-size: cover;
 }
   @media only screen and (max-width:800px) {
-    .image-header-desktop-overlay{
+    .box-2{
       height: 200px;
       border-radius: 5px 5px 0px 0px;
       background-image: linear-gradient(0deg, hsla(277, 64%, 61%, 0.5), hsla(277, 64%, 61%, 0.5)),url(/images/image-header-mobile.jpg);
