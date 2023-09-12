@@ -89,6 +89,7 @@ body {
   color: hsla(0, 0%, 100%, 0.6);
 }
 .box-2 {
-  background-image: url(/images/image-header-desktop.jpg);
+  background-image: linear-gradient(60deg, hsla(277, 64%, 61%, 0.7), hsla(277, 64%, 61%, 0.7)), url(/images/image-header-desktop.jpg);
   background-size: cover;
+  border-radius: 0px 5px 5px 0px;
 }
